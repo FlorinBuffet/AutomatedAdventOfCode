@@ -5,6 +5,7 @@ public class Main {
     public static void main(String[] args) throws Exception {
 
         System.out.println("AoC 2023, Day 1, Part 1: "+ days.day202301.partOne(Files.readString(Paths.get("data/day202301.txt"))));
+        System.out.println("AoC 2023, Day 2, Part 1: "+ days.day202302.partOne(Files.readString(Paths.get("data/day202302.txt"))));
 
     }
 }
